@@ -8,5 +8,6 @@
  */
 
 #import <ParseTwitterUtils/PFTwitterUtils.h>
+#import "PFTwitter.h"
 
 
