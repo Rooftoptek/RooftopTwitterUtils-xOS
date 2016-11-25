@@ -9,7 +9,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <Parse/PFUserAuthenticationDelegate.h>
+#import <Rooftop/PFUserAuthenticationDelegate.h>
 
 @class BFTask<__covariant BFGenericType>;
 @class PFTwitter;

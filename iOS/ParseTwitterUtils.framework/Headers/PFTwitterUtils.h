@@ -9,8 +9,8 @@
 
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
-#import <Parse/PFConstants.h>
-#import <Parse/PFUser.h>
+#import <Rooftop/PFConstants.h>
+#import <Rooftop/PFUser.h>
 
 #import "PFTwitter.h"
 
@@ -23,7 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface PFTwitterUtils : NSObject 
 
 
-+ (void)login;
++ (void)loginWithCompletion:(void (^)(BOOL success))completionBlock;
 
 + (void)logInWithBlock:(nullable PFUserResultBlock)block;
 
