@@ -1,0 +1,6 @@
+framework module RooftopTwitterUtils {
+  umbrella header "RooftopTwitterUtils.h"
+
+  export *
+  module * { export * }
+}
